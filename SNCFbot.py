@@ -9,9 +9,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 🔹 Configuration via variables d'environnement
-TELEGRAM_TOKEN =7227192058:AAGGV7RszhDZ2nx55SdKSu_sepWcc8480sw
-CHAT_ID = 5112294865
-SNCF_API_KEY = ee585a7f-fd4a-4740-a007-18539990488b
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
+SNCF_API_KEY = os.getenv("SNCF_API_KEY")
 
 
 # 🔹 Liste des trains à surveiller
