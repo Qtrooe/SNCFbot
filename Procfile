@@ -1,1 +1,1 @@
-web: python SNCFbot.py
+worker: python SNCFbot.py
